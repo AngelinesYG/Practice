@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+   </head>
+   <body>
+      <h1>Product Index Page</h1>
+      <ul>
+         <% for (let i = 0; i < product.length; i++){%>
+            <li>
+               <a href="/product/<%=product[i].id%>">
+                  <%=product[i].name%>
+               </a>
+            </li>
+         <% } %>
+      </ul>
+   </body>
+</html>
