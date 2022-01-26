@@ -14,3 +14,6 @@ const finalAnswer = reversed.join("")
 //Now you must return the finalAnswer to call on the output of this code. 
 return finalAnswer;
 }
+//Can also be solved by doing 
+// return str.split("").reverse().join(""); 
+//Which accomplishes the same thing. 
